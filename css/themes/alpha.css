@@ -1,0 +1,318 @@
+/*=====================================*\
+    $PROPERTIES
+\*=====================================*/
+/*=====================================*\
+    $CSS3 PROPERTIES
+\*=====================================*/
+/*=====================================*\
+    $MISC
+\*=====================================*/
+/* Adds a background texture overlay.
+\*===========================*/
+/* Overwrites default styles for the dominant header style
+\*===========================*/
+/*=====================================*\
+    $HELPERS
+\*=====================================*/
+/* The micro clearfix http://nicolasgallagher.com/micro-clearfix-hack/
+\*===========================*/
+/*=====================================*\
+    $DEFAULT THEME
+\*=====================================*/
+/* Main Colors
+\*===========================*/
+/* Accent Colors
+\*===========================*/
+/* Neutral Colors - TODO: Think about semantic variable names and how to minimize.
+\*===========================*/
+/* Components
+\*===========================*/
+/* Links */
+/* Main Colors
+\*===========================*/
+/* Accent Colors
+\*===========================*/
+/* Neutral Colors - TODO: Think about semantic variable names and how to minimize.
+// NOTE: Currently, changing these will not have an effect on the theme.
+\*===========================*/
+/* Components
+\*===========================*/
+/* Links */
+/*=====================================*\
+    $PRIMARY NAV
+\*=====================================*/
+
+.h-primary-nav {
+  background-color: #5a483f;
+  border-top-color: #665247;
+  border-bottom-color: #3f322c;
+}
+/* 720px +
+\*===========================*/
+
+@media (min-width: 720px) {
+  .h-primary-nav:after {
+    -webkit-box-shadow: 18px 0px 20px -20px rgba(0, 0, 0, 0.2), -18px 0px 20px -20px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 18px 0px 20px -20px rgba(0, 0, 0, 0.2), -18px 0px 20px -20px rgba(0, 0, 0, 0.2);
+    box-shadow: 18px 0px 20px -20px rgba(0, 0, 0, 0.2), -18px 0px 20px -20px rgba(0, 0, 0, 0.2);
+  }
+  .h-primary-nav_wrapper:before {
+    background-color: #514139;
+  }
+  .h-primary-nav_menu {
+    color: #fcfcfa;
+  }
+  .h-primary-nav_menu li a:hover:after {
+    background: #3c302a;
+  }
+}
+/*=====================================*\
+    $TYPOGRAPHY
+\*=====================================*/
+
+/* Headers
+\*===========================*/
+
+h1 {
+  color: #42673e;
+}
+h2 {
+  border-top-color: #ad3a00;
+}
+h3,
+h4 {
+  border-left-color: #ad3a00;
+}
+h5,
+h6 {
+  color: #568751;
+}
+/* special use
+\*===========================*/
+
+.hdr-dominant {
+  background: #568751;
+  border-color: #42673e;
+  color: #fcfcfa;
+}
+.hdr-dominant.thm-primary {
+  background: #5a483f;
+  border-color: #3c302a;
+}
+.hdr-dominant.thm-primary_comp {
+  background: #507273;
+  border-color: #3b5455;
+}
+.hdr-dominant.thm-secondary_comp {
+  background: #f15a28;
+  border-color: #d8400e;
+}
+/*=====================================*\
+    $LINKS (LVHA)
+\*=====================================*/
+
+a:link,
+a:visited {
+  color: #ad3a00;
+}
+a:hover {
+  color: #7a2900;
+}
+/*=====================================*\
+    $BLOCKQUOTES
+\*=====================================*/
+
+blockquote {
+  border-left-color: #ad3a00;
+}
+/* 720px +
+\*===========================*/
+
+@media (min-width: 720px) {
+  .c-pull-quote--left {
+    border-right-color: #ad3a00;
+  }
+}
+/* /720 + query */
+
+/*=====================================*\
+    $HEADER
+\*=====================================*/
+
+.h-audience-nav a {
+  color: #736d65;
+}
+.h-quicklinks_current a {
+  color: #736d65;
+}
+.h-quicklinks_future a {
+  color: #544d43;
+}
+/*=====================================*\
+    $CTA
+\*=====================================*/
+
+.cta-btn,
+.cta-btn:link,
+.cta-btn:visited {
+  color: #fcfcfa;
+  background-color: #4d9246;
+}
+.cta-btn:after,
+.cta-btn:link:after,
+.cta-btn:visited:after,
+.cta-btn:hover,
+.cta-btn:link:hover,
+.cta-btn:visited:hover {
+  background-color: #427d3c;
+}
+/*=====================================*\
+    $FOOTER
+\*=====================================*/
+
+.f-main-resources a,
+.f-resources a:hover,
+.f-footer_super a {
+  color: #e7e4e0;
+}
+.f-resources a {
+  color: rgba(231, 228, 224, 0.85);
+}
+/*=====================================*\
+    $LOCAL
+\*=====================================*/
+
+.l-local_heading a {
+  color: #fcfcfa;
+  background: #568751;
+  border-left: 5px solid #42673e;
+}
+@media (max-width: 959px) {
+  .l-local_heading a:after {
+    background: #fcfcfa;
+    color: #568751;
+  }
+}
+.l-local_nav a {
+  color: #736d65;
+}
+.l-local_nav a:hover {
+  border-left-color: #5a483f;
+}
+.l-local_nav a.is-selected,
+.l-local_nav a.is-selected:hover {
+  background-color: #5a483f;
+  color: #fcfcfa;
+}
+/*=====================================*\
+    $TAGS
+\*=====================================*/
+
+.l-tags a {
+  background: #fed86f;
+  color: #36312b;
+}
+.l-tags a:hover {
+  background: #36312b;
+  color: #fed86f;
+}
+.l-tags a:hover:before {
+  border-color: transparent #36312b transparent transparent;
+}
+.l-tags a:before {
+  border-color: transparent #fed86f transparent transparent;
+}
+/*=====================================*\
+    $UTILS
+\*=====================================*/
+
+.l-breadcrumbs a,
+.l-options a {
+  color: #544d43;
+}
+.l-breadcrumbs a:hover,
+.l-options a:hover {
+  color: #42673e;
+}
+/*=====================================*\
+    $PAGES
+\*=====================================*/
+
+/* Dynamic Homepage
+\*===========================*/
+
+.p-dh-nav li a:link,
+.p-dh-nav li a:visited {
+  color: #5a483f;
+}
+.p-dh-nav li a:hover {
+  color: #ad3a00;
+}
+/* Primary Homepage
+\*===========================*/
+
+.m-home-feed_toggles a {
+  color: #5a483f;
+}
+.m-home-feed_toggles a.is-selected:before {
+  border-top-color: #568751;
+}
+.home-feed li a:hover {
+  color: #5a483f;
+}
+a.m-home-feed_more {
+  color: #fcfcfa;
+  background: #f15a28;
+}
+a.m-home-feed_more:hover {
+  background: #507273;
+}
+.home-content h2 {
+  color: #568751;
+}
+.home-content a:link,
+.home-content a:visited {
+  color: #5a483f;
+}
+.home-content a:hover {
+  color: #ad3a00;
+}
+.home-calendar h3 {
+  color: #f15a28;
+}
+.home-calendar p {
+  color: #736d65;
+}
+.home-calendar a:link,
+.home-calendar a:visited {
+  color: inherit;
+}
+.home-audiences a.home-audiences_mtoggle {
+  color: #fcfcfa;
+  background: #568751;
+  border-left-color: #42673e;
+  border-bottom-color: #42673e;
+}
+.home-audiences a.home-audiences_mtoggle.is-selected {
+  background: #4c7747;
+}
+.home-audiences_group a.audience-page {
+  color: #568751;
+}
+/*=====================================*\
+    $SLIDERS
+\*=====================================*/
+
+/* Basic slider
+\*===========================*/
+
+.rs-basic .rsThumb.rsNavSelected {
+  background: #5a483f;
+  border-top-color: #ad3a00;
+}
+/* Home Basic Slider
+\*===========================*/
+
+.rs-home-basic .rsBullet.rsNavSelected {
+  background: #5a483f;
+}

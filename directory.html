@@ -1,0 +1,2486 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+<!--         <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'> -->
+
+        <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+        More info: h5bp.com/i/378 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Test Inner | Lewis-Clark State College</title>
+        <meta name="description" content="Inner Page Desc">
+        <!-- Facebook tags - More at: https://developers.facebook.com/docs/opengraphprotocol/ -->
+        <meta property="og:title" content="FB - Title Inner Page">
+        <meta property="og:description" content="FB - Dec Inner Page">
+        <meta property="og:image" content="http://baconmockup.com/200/200">
+        <meta property="og:site_name" content="LCSC">
+        <meta property="og:url" content="http://www.lcsc.edu/mocks/live/inner.html">
+        <meta property="og:type" content="university">
+
+        <!-- IF YOU DON'T WANT THE USER ZOOMING <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+        <!-- <link rel="shortcut icon" href="http://www.lcsc.edu/mocks/live/favicon.ico" type="image/x-icon"> -->
+
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/themes/intoTheTrees.css"> -->
+
+        <!-- Conditionally load for IE8 and below -->
+        <script src="js/vendor/respond.js"></script>
+
+        <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+        <!-- All JavaScript at the bottom, except this Modernizr build.
+        Modernizr enables HTML5 elements & feature detects for optimal performance.
+        Create your own custom Modernizr build: www.modernizr.com/download/ -->
+        <script src="js/vendor/modernizr-2.5.3.min.js"></script>
+
+        <script type="text/javascript" src="http://use.typekit.net/zld6khq.js"></script>
+        <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+
+
+
+<!-- LOTS TO LEARN FROM MOZILLA HEAD/META TAGS
+<link rel="alternate" type="application/json" href="/en-US/docs/CSS/element$json" />
+<link rel="canonical" href="https://developer.mozilla.org/en-US/docs/CSS/element" />
+
+<meta property="og:title" content="element" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://developer.mozilla.org/media/img/mdn-logo-sm.png" />
+<meta property="og:site_name" content="Mozilla Developer Network" />
+<meta property="og:url" content="https://developer.mozilla.org/en-US/docs/CSS/element" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://developer.mozilla.org/en-US/docs/CSS/element" />
+<meta name="twitter:title" content="element" />
+<meta name="twitter:image" content="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" />
+<meta name="twitter:site" content="@mozhacks" />
+<meta name="twitter:creator" content="@mozhacks" />
+
+<meta property="og:description" content="The element() CSS function defines an image value generated from an arbitrary HTML element. This image is live, meaning that if the HTML element is changed, the CSS properties using the resulting value are automatically updated."/>
+<meta name="description" content="The element() CSS function defines an image value generated from an arbitrary HTML element. This image is live, meaning that if the HTML element is changed, the CSS properties using the resulting value are automatically updated." />
+<meta name="twitter:description" content="The element() CSS function defines an image value generated from an arbitrary HTML element. This image is live, meaning that if the HTML element is changed, the CSS properties using the resulting value are automatically updated." /> -->
+
+
+
+
+
+    </head>
+    <body>
+
+
+                <header class="h-header_wrapper">
+
+                    <div class="h-header">
+                        <a href="/" class="h-lcsc-logo ir" title="LCSC home page">Lewis-Clark State College</a><!-- /logo -->
+                        <nav class="h-audience-nav">
+                            <ul>
+                                <li><a href="#">Future Students</a></li>
+                                <li><a href="#">Parents</a></li>
+                                <li><a href="#">Current Students</a></li>
+                                <li class="h-more">
+                                    <a href="#" class="collapsible h-more_toggle" data-collapsible-options='{"target": "#moreAudience", "group":"headerMore", "clickClose": true}'>More</a>
+                                    <ul id="moreAudience" class="h-more_content">
+                                        <li><a href="#">Alumni</a></li>
+                                        <li><a href="#">Faculty &amp; Staff</a></li>
+                                        <li class="bar-split"><a href="#">Community Programs</a></li>
+                                        <li class="bar-split"><a href="#">Give</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav><!-- /audience links -->
+
+                        <nav class="h-quicklinks">
+                            <ul class="h-quicklinks_current">
+                                <li><a href="#">LCMail</a></li>
+                                <li><a href="#">Blackboard</a></li>
+                                <li><a href="#">Warrior Web</a></li>
+                                <li class="h-more">
+                                    <a href="#" class="collapsible h-more_toggle" data-collapsible-options='{"target": "#moreQuicklinks", "group":"headerMore", "clickClose": true}'>More</a>
+                                </li>
+                            </ul>
+                            <ul class="h-quicklinks_future bar-split h-more_content" id="moreQuicklinks">
+                                <li><a href="#" onclick="return false">Apply</a></li>
+                                <li><a href="#">Request Information</a></li>
+                                <li><a href="#">Visit</a></li>
+                                <li><a href="#">Tour</a></li>
+                            </ul>
+                        </nav><!-- /student quicklinks -->
+                    </div><!-- /header content wrapper -->
+
+                    <div class="h-primary-nav_wrapper">
+                        <div class="h-primary-nav">
+
+                            <ul class="m-h-nav no-style">
+                                <li>
+                                    <span class="faux-link m-h-nav_menu collapsible ir" data-collapsible-options='{"target": "#mainNav", "group":"mobileNav"}'>Menu</span>
+                                </li>
+                                <li>
+                                    <span class="faux-link m-h-nav_audiences collapsible ir" data-collapsible-options='{"target": "#audienceNav", "group":"mobileNav"}'>I am a...</span>
+                                </li>
+                                <li>
+                                    <span class="faux-link m-h-nav_links collapsible ir" data-collapsible-options='{"target": "#quicklinksNav", "group":"mobileNav"}'>Quicklinks</span>
+                                </li>
+                                <li>
+                                    <span class="faux-link m-h-nav_search collapsible ir" data-collapsible-options='{"target": "#searchForm", "group":"mobileNav"}'>Search</span>
+                                </li>
+                            </ul><!-- /mobile-nav -->
+
+                            <nav class="h-nav_clearfix">
+                                <ul id="mainNav" class="h-primary-nav_menu m-h-nav-sub">
+                                    <li><a href="#">Degrees</a></li>
+                                    <li><a href="#">About LC</a></li>
+                                    <li><a href="#">Admissions</a></li>
+                                    <li><a href="#">Tuition &amp; Fees</a></li>
+                                    <li><a href="#">Student Life</a></li>
+                                    <li><a href="#">Athletics</a></li>
+                                </ul> <!-- /primary-nav-menu -->
+
+                                <ul id="audienceNav" class="m-h-audience-nav m-h-nav-sub">
+                                    <li><a href="#">Future Students</a></li>
+                                    <li><a href="#">Parents</a></li>
+                                    <li><a href="#">Current Students</a></li>
+                                    <li><a href="#">Alumni</a></li>
+                                    <li><a href="#">Faculty &amp; Staff</a></li>
+                                    <li><a href="#">Community Programs</a></li>
+                                    <li><a href="#">Give</a></li>
+                                </ul> <!-- /mobile-audience-nav -->
+
+                                <nav id="quicklinksNav" class="m-h-quicklinks m-h-nav-sub"><!-- Contents should be loaded via ajax upon request (Too much markup) -->
+                                    <h3>Quicklinks</h3>
+                                    <ul>
+                                        <li><a href="#">LCMail</a></li>
+                                        <li><a href="#">Blackboard</a></li>
+                                        <li><a href="#">Warrior Web</a></li>
+                                        <li><a href="#">Apply</a></li>
+                                        <li><a href="#">Request Information</a></li>
+                                        <li><a href="#">Visit</a></li>
+                                        <li><a href="#">Virtual Tour</a></li>
+                                    </ul>
+                                    <h3>Resources</h3>
+                                    <ul>
+                                        <li><a href="#">A-Z</a></li>
+                                        <li><a href="#">Directory</a></li>
+                                        <li><a href="#">Maps &amp; Directions</a></li>
+                                        <li><a href="#">Emergency Preparedness</a></li>
+                                        <li><a href="#">Outreach Centers</a></li>
+                                        <li><a href="#">Website Feedback</a></li>
+                                        <li><a href="#">Engage: Social Media</a></li>
+                                    </ul>
+                                </nav> <!-- /mobile-quicklinks -->
+
+                            </nav><!-- /primary navigation links -->
+                            <div class="h-search_toggle">
+                                <a href="#" class="ir collapsible" data-collapsible-options='{"target": "#searchForm"}'>Search</a>
+                            </div>
+                            <div id="searchForm" class="h-search">
+                                <form action="" method="get">
+                                    <fieldset id="hSearchForm" class="h-search_form">
+                                            <label class="visuallyhidden focusable" for="q">Search</label>
+                                            <input type="text" name="q" id="q" class="h-search_box" placeholder="find something...">
+                                            <input class="h-search_submit ir" type="submit" value="Go">
+                                    </fieldset>
+                                    <fieldset id="searchFilters" class="h-search_filters">
+                                        <input checked id="opt_all" name="limit" type="radio" value="0">
+                                        <label for="opt_all">Entire site</label>
+                                        <input id="opt_fands" name="limit" type="radio" value="1">
+                                        <label for="opt_fands">Faculty &amp; Staff</label>
+                                        <input id="opt_nande" name="limit" type="radio" value="2">
+                                        <label for="opt_nande">News &amp; Events</label>
+                                        <input id="opt_dept" name="limit" type="radio" value="3">
+                                        <label for="opt_dept">Departments</label>
+                                    </fieldset>
+                                </form>
+                            </div><!-- /search form -->
+
+                        </div>
+                    </div><!-- /primary nav -->
+
+                </header><!-- /header -->
+
+
+<!--                 <div class="frame c-content" style="margin-bottom: -100px;">
+                    <img src="http://www.champlain.edu/images/undergraduate_studies/tuition_placeholder.jpg" alt="Invest Video" title="Invest Video" border="0">
+                    <img src="http://baconmockup.com/1200/350">
+                </div> -->
+                <div class="frame row u-cm">
+
+                    <div class="l-local column span-3">
+                        <h2 class="l-local_heading"><a href="#" class="collapsible" data-collapsible-options='{"target": "#localNav", "clickThroughMin": 960}'>Admission</a></h2>
+                        <nav class="l-local_nav" id="localNav">
+                            <ul>
+                                <li><a href="#">Applying</a></li>
+                                <li><a href="#">Visit &amp; Events</a></li>
+                                <li><a href="#">Staff</a>
+                                    <ul>
+                                        <li><a href="#">Professional</a></li>
+                                        <li><a class="is-selected" href="#">Classified</a></li>
+                                        <li><a href="#">Contract</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Transfer Students</a></li>
+                                <li><a href="#">President Letters</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div> <!-- /local -->
+
+                    <div class="column span-9">
+                        <div class="l-utils">
+                            <ul class="l-breadcrumbs no-style">
+                                <li class="l-breadcrumbs_home"><a href="/" title="LCSC home page" data-icon-home="a" data-icon-home-fallback="Home"></a>\</li>
+                                <li><a href="#">Admissions</a>\</li>
+                                <li><a href="#">Transfer students</a>\</li>
+                                <li><a href="#">How to Apply</a></li>
+                            </ul>
+                            <ul class="l-options no-style">
+                                <li><a href="#" title="Bookmark" data-icon="&#x2616;" data-icon-fallback="Bookmark"></a></li>
+                                <li><a href="javascript:window.print()" title="Print" data-icon="c" data-icon-fallback="Print"></a></li>
+                                <li><a title="Share with Friends" class="addthis_button l-options_share" data-icon="+">Share</a></li>
+                            </ul>
+                        </div> <!-- /local utilities -->
+
+                        <section class="c-content box spill-left clear u-min-height">
+
+
+<table>
+        <thead>
+            <th>Department</th>
+            <th>Building/Room</th>
+            <th>Fax</th>
+            <th>Phone</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+
+            Academic Advising-
+            </td>
+            <td>
+
+            RCH 110</td>
+            <td>
+
+            2298</td>
+            <td>
+
+            2313</td>
+          </tr>
+          <tr>
+            <td>
+
+            Academic Programs, Dean-
+            <a href="http://www.lcsc.edu/academicprograms">
+            http://www.lcsc.edu/academicprograms</a></td>
+            <td>
+
+            SPH 116</td>
+            <td>
+
+            2763</td>
+            <td>
+
+            2325</td>
+          </tr>
+          <tr>
+            <td>
+
+            Activity Center-
+            </td>
+            <td>
+
+            ACC 221</td>
+            <td>
+
+            </td>
+            <td>
+
+            2471</td>
+          </tr>
+          <tr>
+            <td>
+
+            Administrative Services-
+            <a href="http://www.lcsc.edu/adminservices">
+            http://www.lcsc.edu/adminservices</a></td>
+            <td>
+
+            ADM 106</td>
+            <td>
+
+            2077</td>
+            <td>
+
+            2240</td>
+          </tr>
+          <tr>
+            <td>
+<a href="http://www.lcsc.edu/admissions">
+            Admissions</a></td>
+            <td>
+
+            RCH 102</td>
+            <td>
+
+            2876</td>
+            <td>
+
+            2210</td>
+          </tr>
+          <tr>
+            <td>
+
+            Adult Learning Center (GED)-
+            <a href="http://www.lcsc.edu/afe/abe.htm">
+            http://www.lcsc.edu/afe/abe.htm</a></td>
+            <td>
+
+            400 Main St.</td>
+            <td>
+
+            2322</td>
+            <td>
+
+            2238</td>
+          </tr>
+          <tr>
+            <td>
+
+            AICEE / Pi'amkinwaas-
+            </td>
+            <td>
+
+            1112 7th St.</td>
+            <td>
+
+            2728</td>
+            <td>
+
+            2777</td>
+          </tr>
+          <tr>
+            <td>
+
+            Allied Health-
+            </td>
+            <td>
+
+            NLTC</td>
+            <td>
+
+            </td>
+            <td>
+
+            2442</td>
+          </tr>
+          <tr>
+            <td>
+
+            Alumni Office-</td>
+            <td>
+
+            LIB 161</td>
+            <td>
+
+            2201</td>
+            <td>
+
+            2458</td>
+          </tr>
+          <tr>
+            <td>
+
+            Americorps (See Lewis-Clark Svc. Corp)-
+            <a href="http://www.lcsc.edu/americorps">
+            http://www.lcsc.edu/americorps</a></td>
+            <td>
+
+            826 7t St.</td>
+            <td>
+
+            2058</td>
+            <td>
+
+            2084</td>
+          </tr>
+          <tr>
+            <td>
+
+            Army ROTC-
+            <a href="armyrotc@lcmail.lcsc.edu">
+            armyrotc@lcmail.lcsc.edu</a></td>
+            <td>
+
+            MLH B35</td>
+            <td>
+
+            </td>
+            <td>
+
+            2899</td>
+          </tr>
+          <tr>
+            <td>
+
+            Army ROTC-
+            <a href="armyrotc@lcmail.lcsc.edu">
+            armyrotc@lcmail.lcsc.edu</a></td>
+            <td>
+
+            MLH B35</td>
+            <td>
+
+            </td>
+            <td>
+
+            2899</td>
+          </tr>
+          <tr>
+            <td>
+
+            Art Under The Elms-
+            <a href="http://www.lcsc.edu/aue">
+            http://www.lcsc.edu/aue</a></td>
+            <td>
+
+            415 Main St.</td>
+            <td>
+
+            2850</td>
+            <td>
+
+            2605</td>
+          </tr>
+          <tr>
+            <td>
+
+            Associated Student Body (
+            <td>
+
+            SUB 219</td>
+            <td>
+
+            </td>
+            <td>
+
+            2256</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2275</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics Baseball-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2279</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics Cross Country-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2308</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics Golf-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2088</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics Head Trainer-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2183</td>
+            <td>
+
+            2000</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics Men's Basketball-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2271</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics Tennis-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2309</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics Volleyball.-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2258</td>
+          </tr>
+          <tr>
+            <td>
+
+            Athletics Women's Basketball-</td>
+            <td>
+
+            ACC</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2274</td>
+          </tr>
+          <tr>
+            <td>
+
+            Blackboard Helpdesk-
+            <a href="blackboard@lcsc.edu">
+            blackboard@lcsc.edu</a></td>
+            <td>
+
+            SGC 214</td>
+            <td>
+
+            </td>
+            <td>
+
+            2635</td>
+          </tr>
+          <tr>
+            <td>
+
+            Bookstore-
+            <a href="http://www.lcsc.edu/bookstore">
+            http://www.lcsc.edu/bookstore</a></td>
+            <td>
+
+            WCC</td>
+            <td>
+
+            2480</td>
+            <td>
+
+            2242</td>
+          </tr>
+          <tr>
+            <td>
+
+            Budget Office-</td>
+            <td>
+
+            ADM 104</td>
+            <td>
+
+            2077</td>
+            <td>
+
+            2353</td>
+          </tr>
+          <tr>
+            <td>
+
+            Business Division-</td>
+            <td>
+
+            TJH 126</td>
+            <td>
+
+            2061</td>
+            <td>
+
+            2293</td>
+          </tr>
+          <tr>
+            <td>
+
+            Business Technology &amp; Service-
+            <a href="http://www.lcsc.edu/bts">
+            http://www.lcsc.edu/bts</a></td>
+            <td>
+
+            SGC 200</td>
+            <td>
+
+            2856</td>
+            <td>
+
+            2466</td>
+          </tr>
+          <tr>
+            <td>
+
+            Campus Print &amp; Mail Service-</td>
+            <td>
+
+            SGC 103</td>
+            <td>
+
+            2534</td>
+            <td>
+
+            2252</td>
+          </tr>
+          <tr>
+            <td>
+
+            Campus Recreation-
+            <a href="http://www.lcsc.edu/studentactivities/Outdoor/">
+            http://www.lcsc.edu/studentactivities/Outdoor/</a></td>
+            <td>
+
+            ACC 114</td>
+            <td>
+
+            </td>
+            <td>
+
+            2670</td>
+          </tr>
+          <tr>
+            <td>
+
+            Campus Visitations-</td>
+            <td>
+
+            RCH 114</td>
+            <td>
+
+            2876</td>
+            <td>
+
+            2378</td>
+          </tr>
+          <tr>
+            <td>
+
+            Career &amp; Advising Services-
+            <a href="http://www.lcsc.edu/cas">
+            http://www.lcsc.edu/cas</a></td>
+            <td>
+
+            RCH 110</td>
+            <td>
+
+            2298</td>
+            <td>
+
+            2313</td>
+          </tr>
+          <tr>
+            <td>
+
+            Cashier-</td>
+            <td>
+
+            ADM 103</td>
+            <td>
+
+            2174</td>
+            <td>
+
+            2351</td>
+          </tr>
+          <tr>
+            <td>
+
+            Center for Arts &amp; History-
+            <a href="http://www.lcsc.edu/museum">
+            http://www.lcsc.edu/museum</a></td>
+            <td>
+
+            415 Main St.</td>
+            <td>
+
+            2850</td>
+            <td>
+
+            2243</td>
+          </tr>
+          <tr>
+            <td>
+
+            Center Pieces Gift Shop-
+            <a href="http://www.artsandhistory.org/giftshop/default.htm">
+            http://www.artsandhistory.org/giftshop/default.htm</a></td>
+            <td>
+
+            415 Main St.</td>
+            <td>
+
+            2850</td>
+            <td>
+
+            2336</td>
+          </tr>
+          <tr>
+            <td>
+
+            Child Care Ctr-KinderCollege-</td>
+            <td>
+
+            DAY</td>
+            <td>
+
+            </td>
+            <td>
+
+            2254</td>
+          </tr>
+          <tr>
+            <td>
+
+            Clubs &amp; Organizations-</td>
+            <td>
+
+            SUB 208</td>
+            <td>
+
+            2082</td>
+            <td>
+
+            2804</td>
+          </tr>
+          <tr>
+            <td>
+
+            Coeur d'Alene-</td>
+            <td>
+
+            CDA</td>
+            <td>
+
+            </td>
+            <td>
+
+            666-6707</td>
+          </tr>
+          <tr>
+            <td>
+
+            College Advancement-
+            <a href="http://www.lcsc.edu/alumni">
+            http://www.lcsc.edu/alumni</a></td>
+            <td>
+
+            LIB 161</td>
+            <td>
+
+            2201</td>
+            <td>
+
+            2458</td>
+          </tr>
+          <tr>
+            <td>
+
+            College Communications-</td>
+            <td>
+
+            LIB 161</td>
+            <td>
+
+            2201</td>
+            <td>
+
+            2200</td>
+          </tr>
+          <tr>
+            <td>
+
+            Community Warriors Volunteer Center-
+            <a href="http://www.lcsc.edu/americorps">
+            http://www.lcsc.edu/americorps</a></td>
+            <td>
+
+            YEL</td>
+            <td>
+
+            2058</td>
+            <td>
+
+            2084</td>
+          </tr>
+          <tr>
+            <td>
+
+            Continuing Education &amp; Community Events-
+            <a href="http://www.lcsc.edu/ce">
+            http://www.lcsc.edu/ce</a></td>
+            <td>
+
+            415 Main St. 2nd Floor</td>
+            <td>
+
+            2850</td>
+            <td>
+
+            2447</td>
+          </tr>
+          <tr>
+            <td>
+
+            Controller's Office-
+            <a href="http://www.lcsc.edu/controllersoffice">
+            http://www.lcsc.edu/controllersoffice</a></td>
+            <td>
+
+            ADM 103</td>
+            <td>
+
+            2174</td>
+            <td>
+
+            2202</td>
+          </tr>
+          <tr>
+            <td>
+
+            Copy Center-</td>
+            <td>
+
+            SGC 104</td>
+            <td>
+
+            </td>
+            <td>
+
+            2807</td>
+          </tr>
+          <tr>
+            <td>
+
+            Counseling-
+            <a href="http://www.lcsc.edu/osl/counseling.htm">
+            http://www.lcsc.edu/osl/counseling.htm</a></td>
+            <td>
+
+            RCH 111</td>
+            <td>
+
+            2453</td>
+            <td>
+
+            2211</td>
+          </tr>
+          <tr>
+            <td>
+
+            CP - Community Programs-</td>
+            <td>
+
+            SGC 211</td>
+            <td>
+
+            2444</td>
+            <td>
+
+            2282</td>
+          </tr>
+          <tr>
+            <td>
+
+            CP Outreach Grangeville-</td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+            <td>
+
+            983-2164</td>
+          </tr>
+          <tr>
+            <td>
+
+            CP Outreach Orofino-</td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+            <td>
+
+            476-5731</td>
+          </tr>
+          <tr>
+            <td>
+
+            Dental Hygiene-</td>
+            <td>
+
+            WITT 110</td>
+            <td>
+
+            </td>
+            <td>
+
+            2930</td>
+          </tr>
+          <tr>
+            <td>
+
+            Disability Services-
+            <a href="http://www.lcsc.edu/osl/ada.htm">
+            http://www.lcsc.edu/osl/ada.htm</a></td>
+            <td>
+
+            RCH 111</td>
+            <td>
+
+            2453</td>
+            <td>
+
+            2211</td>
+          </tr>
+          <tr>
+            <td>
+
+            Education Division-
+            <a href="http://www.lcsc.edu/education/">
+            http://www.lcsc.edu/education/</a></td>
+            <td>
+
+            SPH 103</td>
+            <td>
+
+            2820</td>
+            <td>
+
+            2260</td>
+          </tr>
+          <tr>
+            <td>
+
+            Educational Talent Search-</td>
+            <td>
+
+            YEL</td>
+            <td>
+
+            </td>
+            <td>
+
+            2503</td>
+          </tr>
+          <tr>
+            <td>
+
+            e-Learning Services-
+            <a href="http://www.lcsc.edu/dl">
+            http://www.lcsc.edu/dl</a></td>
+            <td>
+
+            SGC 212</td>
+            <td>
+
+            2444</td>
+            <td>
+
+            2239</td>
+          </tr>
+          <tr>
+            <td>
+
+            Events &amp; Campus Card Services-</td>
+            <td>
+
+            SUB 216</td>
+            <td>
+
+            </td>
+            <td>
+
+            2060</td>
+          </tr>
+          <tr>
+            <td>
+
+            Faculty Senate Chair-</td>
+            <td>
+
+            ADM 209</td>
+            <td>
+
+            </td>
+            <td>
+
+            2832</td>
+          </tr>
+          <tr>
+            <td>
+
+            Financial Aid-</td>
+            <td>
+
+            RCH 208</td>
+            <td>
+
+            2063</td>
+            <td>
+
+            2224</td>
+          </tr>
+          <tr>
+            <td>
+
+            Fitness Center-</td>
+            <td>
+
+            ACW 148A</td>
+            <td>
+
+            </td>
+            <td>
+
+            2918</td>
+          </tr>
+          <tr>
+            <td>
+
+            Food Service (Sodexo)-</td>
+            <td>
+
+            SUB</td>
+            <td>
+
+            </td>
+            <td>
+
+            2244</td>
+          </tr>
+          <tr>
+            <td>
+
+            Foundation (LCSC)-</td>
+            <td>
+
+            LIB 161</td>
+            <td>
+
+            2201</td>
+            <td>
+
+            2458</td>
+          </tr>
+          <tr>
+            <td>
+
+            GED (See Adult Learning Center)-</td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+          </tr>
+          <tr>
+            <td>
+
+            Grants &amp; Contracts-
+            <a href="http://www.lcsc.edu/grants/">
+            http://www.lcsc.edu/grants/</a></td>
+            <td>
+
+            SAC 234</td>
+            <td>
+
+            2091</td>
+            <td>
+
+            2460</td>
+          </tr>
+          <tr>
+            <td>
+
+            Help Desk - IT-</td>
+            <td>
+
+            SGC 112</td>
+            <td>
+
+            2842</td>
+            <td>
+
+            2231</td>
+          </tr>
+          <tr>
+            <td>
+
+            Human Resource Services-
+            <a href="http://www.lcsc.edu/humanresources">
+            http://www.lcsc.edu/humanresources</a></td>
+            <td>
+
+            ADM 101</td>
+            <td>
+
+            2872</td>
+            <td>
+
+            2269</td>
+          </tr>
+          <tr>
+            <td>
+
+            Humanities-
+            <a href="http://www.lcsc.edu/humanities">
+            http://www.lcsc.edu/humanities</a></td>
+            <td>
+
+            SPH 111A</td>
+            <td>
+
+            </td>
+            <td>
+
+            2307</td>
+          </tr>
+          <tr>
+            <td>
+
+            Humanities Adjunct-</td>
+            <td>
+
+            SPH 305</td>
+            <td>
+
+            </td>
+            <td>
+
+            2467</td>
+          </tr>
+          <tr>
+            <td>
+
+            ID Small Business Dev. Ctr-</td>
+            <td>
+
+            SGC 202</td>
+            <td>
+
+            2878</td>
+            <td>
+
+            2465</td>
+          </tr>
+          <tr>
+            <td>
+
+            Indian Education Prof. Dev. Program-</td>
+            <td>
+
+            1112 7th St.</td>
+            <td>
+
+            2728</td>
+            <td>
+
+            2743</td>
+          </tr>
+          <tr>
+            <td>
+
+            Inst. Planning, Research, &amp; Assessment-
+            <a href="http://www.lcsc.edu/ir">
+            http://www.lcsc.edu/ir</a></td>
+            <td>
+
+            ADM 201A</td>
+            <td>
+
+            </td>
+            <td>
+
+            2065</td>
+          </tr>
+          <tr>
+            <td>
+
+            Institute of Intensive English (I.I.E.)-</td>
+            <td>
+
+            IPO 15</td>
+            <td>
+
+            </td>
+            <td>
+
+            2462</td>
+          </tr>
+          <tr>
+            <td>
+
+            International Living &amp; Learning Center-</td>
+            <td>
+
+            504 6th Ave.</td>
+            <td>
+
+            </td>
+            <td>
+
+            2292</td>
+          </tr>
+          <tr>
+            <td>
+
+            International Programs Office-
+            <a href="http://www.lcsc.edu/admissions/intl">
+            http://www.lcsc.edu/admissions/intl</a></td>
+            <td>
+
+            RCH 22</td>
+            <td>
+
+            2824</td>
+            <td>
+
+            2177</td>
+          </tr>
+          <tr>
+            <td>
+
+            Intramurals (Campus Rec)-
+            <a href="http://www.lcsc.edu/studentactivities/Intramurals/">
+            http://www.lcsc.edu/studentactivities/Intramurals/</a></td>
+            <td>
+
+            ACC 114</td>
+            <td>
+
+            </td>
+            <td>
+
+            2670</td>
+          </tr>
+          <tr>
+            <td>
+
+            IT - Information Technology-
+            <a href="http://www.lcsc.edu/it">
+            http://www.lcsc.edu/it</a></td>
+            <td>
+
+            SGC 111</td>
+            <td>
+
+            2842</td>
+            <td>
+
+            2215</td>
+          </tr>
+          <tr>
+            <td>
+
+            IT Computer Lab-</td>
+            <td>
+
+            SUB 202</td>
+            <td>
+
+            </td>
+            <td>
+
+            2653</td>
+          </tr>
+          <tr>
+            <td>
+
+            IT Computer Lab-
+            <a href="http://www.lcsc.edu/it/ComputerLab/library.htm">
+            http://www.lcsc.edu/it/ComputerLab/library.htm</a></td>
+            <td>
+
+            LIB</td>
+            <td>
+
+            </td>
+            <td>
+
+            2859</td>
+          </tr>
+          <tr>
+            <td>
+
+            IT Help Desk-</td>
+            <td>
+
+            SGC 112</td>
+            <td>
+
+            2842</td>
+            <td>
+
+            2231</td>
+          </tr>
+          <tr>
+            <td>
+
+            Kids' College-
+            <a href="http://www.lcsc.edu/kidscollege">
+            http://www.lcsc.edu/kidscollege</a></td>
+            <td>
+
+            SGC 208</td>
+            <td>
+
+            2850</td>
+            <td>
+
+            2860</td>
+          </tr>
+          <tr>
+            <td>
+
+            KinderCollege-
+            <a href="http://www.lcsc.edu/kindercollege/">
+            http://www.lcsc.edu/kindercollege/</a></td>
+            <td>
+
+            DAY</td>
+            <td>
+
+            2588</td>
+            <td>
+
+            2254</td>
+          </tr>
+          <tr>
+            <td>
+
+            Learning Resource Center &amp; Lab-</td>
+            <td>
+
+            SGC 218A</td>
+            <td>
+
+            </td>
+            <td>
+
+            2369</td>
+          </tr>
+          <tr>
+            <td>
+
+            Lewis-Clark Service Corps-
+            <a href="http://www.lcsc.edu/americorps">
+            http://www.lcsc.edu/americorps</a></td>
+            <td>
+
+            YEL</td>
+            <td>
+
+            2058</td>
+            <td>
+
+            2084</td>
+          </tr>
+          <tr>
+            <td>
+
+            Library Circulation / Reserve-
+            <a href="http://www.lcsc.edu/library/FAQ/FAQ.htm">
+            http://www.lcsc.edu/library/FAQ/FAQ.htm</a></td>
+            <td>
+
+            LIB</td>
+            <td>
+
+            2831</td>
+            <td>
+
+            2396</td>
+          </tr>
+          <tr>
+            <td>
+
+            Library Computer Lab-</td>
+            <td>
+
+            LIB</td>
+            <td>
+
+            </td>
+            <td>
+
+            2859</td>
+          </tr>
+          <tr>
+            <td>
+
+            Library Interlibrary Loans-
+            <a href="http://www.lcsc.edu/library/Forms/forms.htm">
+            http://www.lcsc.edu/library/Forms/forms.htm</a></td>
+            <td>
+
+            LIB</td>
+            <td>
+
+            2831</td>
+            <td>
+
+            2394</td>
+          </tr>
+          <tr>
+            <td>
+
+            Library-Information Desk-
+            <a href="http://www.lcsc.edu/library/email_ref.htm">
+            http://www.lcsc.edu/library/email_ref.htm</a></td>
+            <td>
+
+            LIB</td>
+            <td>
+
+            2831</td>
+            <td>
+
+            2236</td>
+          </tr>
+          <tr>
+            <td>
+
+            Mail Room-</td>
+            <td>
+
+            SGC 120</td>
+            <td>
+
+            </td>
+            <td>
+
+            2214</td>
+          </tr>
+          <tr>
+            <td>
+
+            Math Lab-</td>
+            <td>
+
+            MLH 320</td>
+            <td>
+
+            </td>
+            <td>
+
+            2320</td>
+          </tr>
+          <tr>
+            <td>
+
+            Media Services/College Communications-
+            <a href="http://www.lcsc.edu/itms">
+            http://www.lcsc.edu/itms</a></td>
+            <td>
+
+            LIB 150</td>
+            <td>
+
+            </td>
+            <td>
+
+            2392</td>
+          </tr>
+          <tr>
+            <td>
+
+            Military Science (AROTC)-armyrotc@uidaho.edu-</td>
+            <td>
+
+            U of I-Memorial Gym</td>
+            <td>
+
+            </td>
+            <td>
+
+            885-7685</td>
+          </tr>
+          <tr>
+            <td>
+
+            Music-</td>
+            <td>
+
+            NMB</td>
+            <td>
+
+            </td>
+            <td>
+
+            2334</td>
+          </tr>
+          <tr>
+            <td>
+
+            Music Adjunct-</td>
+            <td>
+
+            MSB</td>
+            <td>
+
+            </td>
+            <td>
+
+            2387</td>
+          </tr>
+          <tr>
+            <td>
+
+            NAIA Baseball World Series-</td>
+            <td>
+
+            ACC 221</td>
+            <td>
+
+            </td>
+            <td>
+
+            2471</td>
+          </tr>
+          <tr>
+            <td>
+
+            Nat. Am./ Minority Student Services-
+            <a href="http://www.lcsc.edu/studentservices/minorityprograms">
+            http://www.lcsc.edu/studentservices/minorityprograms</a></td>
+            <td>
+
+            RCH 214</td>
+            <td>
+
+            2193</td>
+            <td>
+
+            2812</td>
+          </tr>
+          <tr>
+            <td>
+
+            Natural Sciences Div.-</td>
+            <td>
+
+            MLH 306</td>
+            <td>
+
+            2064</td>
+            <td>
+
+            2295</td>
+          </tr>
+          <tr>
+            <td>
+
+            New Student Recruitment-</td>
+            <td>
+
+            RCH 114</td>
+            <td>
+
+            2761</td>
+            <td>
+
+            2378</td>
+          </tr>
+          <tr>
+            <td>
+
+            Nursing &amp; Health Sciences Div.-
+            <a href="http://www.lcsc.edu/nurdiv">
+            http://www.lcsc.edu/nurdiv</a></td>
+            <td>
+
+            SAC 118</td>
+            <td>
+
+            2062</td>
+            <td>
+
+            2250</td>
+          </tr>
+          <tr>
+            <td>
+
+            Nursing Advising-
+            <a href="NHS@lcsc.edu">
+            NHS@lcsc.edu</a></td>
+            <td>
+
+            SAC 124</td>
+            <td>
+
+            </td>
+            <td>
+
+            2688</td>
+          </tr>
+          <tr>
+            <td>
+
+            Pathfinder, The-</td>
+            <td>
+
+            SUB 201</td>
+            <td>
+
+            </td>
+            <td>
+
+            2470</td>
+          </tr>
+          <tr>
+            <td>
+
+            Payroll-
+            <a href="http://www.lcsc.edu/humanresources">
+            http://www.lcsc.edu/humanresources</a></td>
+            <td>
+
+            ADM 101</td>
+            <td>
+
+            2872</td>
+            <td>
+
+            2204</td>
+          </tr>
+          <tr>
+            <td>
+
+            Physical Plant-</td>
+            <td>
+
+            PLT</td>
+            <td>
+
+            2354</td>
+            <td>
+
+            2247</td>
+          </tr>
+          <tr>
+            <td>
+
+            Pi'amkinwaas (See AICEE)-</td>
+            <td>
+
+            1112 7th St.</td>
+            <td>
+
+            2728</td>
+            <td>
+
+            2777</td>
+          </tr>
+          <tr>
+            <td>
+
+            Planning, Research, &amp; Assessment-</td>
+            <td>
+
+            ADM 201A</td>
+            <td>
+
+            2696</td>
+            <td>
+
+            2065</td>
+          </tr>
+          <tr>
+            <td>
+
+            President.(College)-
+            <a href="http://www.lcsc.edu/president">
+            http://www.lcsc.edu/president</a></td>
+            <td>
+
+            ADM 207</td>
+            <td>
+
+            2822</td>
+            <td>
+
+            2216</td>
+          </tr>
+          <tr>
+            <td>
+
+            Professional Technical Education Center-
+            <a href="http://www.lcsc.edu/cnd/">
+            http://www.lcsc.edu/cnd/</a></td>
+            <td>
+
+            RCH 23</td>
+            <td>
+
+            2056</td>
+            <td>
+
+            2331</td>
+          </tr>
+          <tr>
+            <td>
+
+            Professional-Technical Programs-
+            <a href="http://www.lcsc.edu/ptp/">
+            http://www.lcsc.edu/ptp/</a></td>
+            <td>
+
+            MTB 101</td>
+            <td>
+
+            2816</td>
+            <td>
+
+            2225</td>
+          </tr>
+          <tr>
+            <td>
+
+            Prometric Test Center-</td>
+            <td>
+
+            MTB 101</td>
+            <td>
+
+            </td>
+            <td>
+
+            2360</td>
+          </tr>
+          <tr>
+            <td>
+
+            Provost/Academic VP-</td>
+            <td>
+
+            ADM 209</td>
+            <td>
+
+            2822</td>
+            <td>
+
+            2213</td>
+          </tr>
+          <tr>
+            <td>
+
+            Purchasing-</td>
+            <td>
+
+            ADM 104</td>
+            <td>
+
+            2077</td>
+            <td>
+
+            2288</td>
+          </tr>
+          <tr>
+            <td>
+
+            Radio (KLCZ)-
+            <a href="http://www.klcz.com/">
+            http://www.klcz.com/</a></td>
+            <td>
+
+            SUB 205/206</td>
+            <td>
+
+            </td>
+            <td>
+
+            2719/2722</td>
+          </tr>
+          <tr>
+            <td>
+
+            Registrar-
+            <a href="http://www.lcsc.edu/registrar">
+            http://www.lcsc.edu/registrar</a></td>
+            <td>
+
+            RCH 108</td>
+            <td>
+
+            2429</td>
+            <td>
+
+            2223</td>
+          </tr>
+          <tr>
+            <td>
+
+            RL - Residence Life Office-</td>
+            <td>
+
+            TLK</td>
+            <td>
+
+            2622</td>
+            <td>
+
+            2053</td>
+          </tr>
+          <tr>
+            <td>
+
+            RL Clark Hall Courtesy Phone-</td>
+            <td>
+
+            1023 4th St.</td>
+            <td>
+
+            </td>
+            <td>
+
+            2068</td>
+          </tr>
+          <tr>
+            <td>
+
+            RL Parrish House Courtes Phone-</td>
+            <td>
+
+            623 6th Ave</td>
+            <td>
+
+            </td>
+            <td>
+
+            2066</td>
+          </tr>
+          <tr>
+            <td>
+
+            RL T-Hall Courtesy Phone-</td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+            <td>
+
+            2067</td>
+          </tr>
+          <tr>
+            <td>
+
+            Security Mobile-</td>
+            <td>
+
+            MLH 110</td>
+            <td>
+
+            </td>
+            <td>
+
+            2815</td>
+          </tr>
+          <tr>
+            <td>
+
+            Security Office-
+            <a href="http://www.lcsc.edu/security">
+            http://www.lcsc.edu/security</a></td>
+            <td>
+
+            MLH 110</td>
+            <td>
+
+            2077</td>
+            <td>
+
+            2226</td>
+          </tr>
+          <tr>
+            <td>
+
+            Silverthorne Theatre-</td>
+            <td>
+
+            ADM</td>
+            <td>
+
+            </td>
+            <td>
+
+            2345</td>
+          </tr>
+          <tr>
+            <td>
+
+            Social Science Div.-</td>
+            <td>
+
+            SPH 101A</td>
+            <td>
+
+            2571</td>
+            <td>
+
+            2291</td>
+          </tr>
+          <tr>
+            <td>
+
+            Social Work Div.-</td>
+            <td>
+
+            SPH 101</td>
+            <td>
+
+            2571</td>
+            <td>
+
+            2866</td>
+          </tr>
+          <tr>
+            <td>
+
+            Sodexo-</td>
+            <td>
+
+            SUB</td>
+            <td>
+
+            </td>
+            <td>
+
+            2244</td>
+          </tr>
+          <tr>
+            <td>
+
+            Spanish Language Lab-</td>
+            <td>
+
+            SPH 115</td>
+            <td>
+
+            </td>
+            <td>
+
+            2307</td>
+          </tr>
+          <tr>
+            <td>
+
+            Student Activities-
+            <a href="http://www.lcsc.edu/studentactivities/">
+            http://www.lcsc.edu/studentactivities/</a></td>
+            <td>
+
+            SUB 208</td>
+            <td>
+
+            2082</td>
+            <td>
+
+            2804</td>
+          </tr>
+          <tr>
+            <td>
+
+            Student affairs-</td>
+            <td>
+
+            RCH 112</td>
+            <td>
+
+            2314</td>
+            <td>
+
+            2218</td>
+          </tr>
+          <tr>
+            <td>
+
+            Student Co-op Center-</td>
+            <td>
+
+            SPH B4</td>
+            <td>
+
+            </td>
+            <td>
+
+            2741</td>
+          </tr>
+          <tr>
+            <td>
+
+            Student Counseling Center-
+            <a href="http://www.lcsc.edu/osl">
+            http://www.lcsc.edu/osl</a></td>
+            <td>
+
+            RCH 111</td>
+            <td>
+
+            2453</td>
+            <td>
+
+            2211</td>
+          </tr>
+          <tr>
+            <td>
+
+            Student Health Services-
+            <a href="http://www.lcsc.edu/osl/health/default.htm">
+            http://www.lcsc.edu/osl/health/default.htm</a></td>
+            <td>
+
+            SGC 205</td>
+            <td>
+
+            2882</td>
+            <td>
+
+            2251</td>
+          </tr>
+          <tr>
+            <td>
+
+            Student Success Program-</td>
+            <td>
+
+            MLH 134</td>
+            <td>
+
+            </td>
+            <td>
+
+            2208</td>
+          </tr>
+          <tr>
+            <td>
+
+            SUB Computer Lab-</td>
+            <td>
+
+            SUB 202</td>
+            <td>
+
+            </td>
+            <td>
+
+            2653</td>
+          </tr>
+          <tr>
+            <td>
+
+            SUB Information Desk-
+            <a href="http://www.lcsc.edu/sub">
+            http://www.lcsc.edu/sub</a></td>
+            <td>
+
+            SUB 213</td>
+            <td>
+
+            2170</td>
+            <td>
+
+            2060</td>
+          </tr>
+          <tr>
+            <td>
+
+            Summer School &amp; Special Programs-</td>
+            <td>
+
+            SGC 211</td>
+            <td>
+
+            2444</td>
+            <td>
+
+            2207</td>
+          </tr>
+          <tr>
+            <td>
+
+            Switchboard-</td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+            <td>
+
+            0</td>
+          </tr>
+          <tr>
+            <td>
+
+            Talking River Review-</td>
+            <td>
+
+            IPO 20</td>
+            <td>
+
+            </td>
+            <td>
+
+            2716</td>
+          </tr>
+          <tr>
+            <td>
+
+            Tech Prep-</td>
+            <td>
+
+            SGC 218</td>
+            <td>
+
+            2816</td>
+            <td>
+
+            2418</td>
+          </tr>
+          <tr>
+            <td>
+
+            Technical &amp; Industrial Div-
+            <a href="http://www.lcsc.edu/ti">
+            http://www.lcsc.edu/ti</a></td>
+            <td>
+
+            MTB 101</td>
+            <td>
+
+            2816</td>
+            <td>
+
+            2220</td>
+          </tr>
+          <tr>
+            <td>
+
+            Technology for Teachers Lab-
+            <a href="http://edudiv.lcsc.edu">
+            http://edudiv.lcsc.edu</a></td>
+            <td>
+
+            RCH 215</td>
+            <td>
+
+            </td>
+            <td>
+
+            2738</td>
+          </tr>
+          <tr>
+            <td>
+
+            Tennis Courts-</td>
+            <td>
+
+            TNCT</td>
+            <td>
+
+            2801</td>
+            <td>
+
+            2309</td>
+          </tr>
+          <tr>
+            <td>
+
+            TRIO (SSS) Lab-</td>
+            <td>
+
+            RCH 218</td>
+            <td>
+
+            </td>
+            <td>
+
+            2579</td>
+          </tr>
+          <tr>
+            <td>
+
+            TRIO Academic Services (SSS)-</td>
+            <td>
+
+            RCH 205</td>
+            <td>
+
+            2057</td>
+            <td>
+
+            2300</td>
+          </tr>
+          <tr>
+            <td>
+
+            Veterans Affairs-
+            <a href="http://www.lcsc.edu/admissions/veterans.htm">
+            http://www.lcsc.edu/admissions/veterans.htm</a></td>
+            <td>
+
+            RCH 208</td>
+            <td>
+
+            </td>
+            <td>
+
+            2473</td>
+          </tr>
+          <tr>
+            <td>
+
+            Warrior Entertainment Board-
+            <a href="http://www.lcsc.edu/studentactivities/SPB/">
+            http://www.lcsc.edu/studentactivities/SPB/</a></td>
+            <td>
+
+            SUB 218</td>
+            <td>
+
+            2082</td>
+            <td>
+
+            2069</td>
+          </tr>
+          <tr>
+            <td>
+
+            Williams Conference Center-
+            <a href="http://www.lcsc.edu/sub/wcc.htm">
+            http://www.lcsc.edu/sub/wcc.htm</a></td>
+            <td>
+
+            WCC</td>
+            <td>
+
+            </td>
+            <td>
+
+            2060</td>
+          </tr>
+          <tr>
+            <td>
+
+            Workforce Training-</td>
+            <td>
+
+            NLTC</td>
+            <td>
+
+            </td>
+            <td>
+
+            2388/2442</td>
+          </tr>
+          <tr>
+            <td>
+
+            Writing Center-</td>
+            <td>
+
+            SPH 115</td>
+            <td>
+
+            </td>
+            <td>
+
+            2433</td>
+          </tr>
+          </tbody>
+      </table>
+
+
+
+
+
+                            <hr class="clear">
+                            <h6 class="l-tags_header">Tags</h6>
+                            <ul class="l-tags no-style">
+                                <li><a href="#">How to (7)</a></li>
+                                <li><a href="#">Dan White (3)</a></li>
+                                <li><a href="#">Web Development (21)</a></li>
+                                <li><a href="#">Teachers</a></li>
+                                <li><a href="#">Awards</a></li>
+                            </ul> <!-- /Tags -->
+
+                        </section> <!-- /Content -->
+                    </div> <!-- /Content wrapper -->
+                </div> <!-- /main page frame -->
+
+            <footer class="f-footer_container">
+                <div class="f-footer_wrapper-top">
+                    <div class="f-footer">
+                        <div class="f-footer_contents">
+                            <!-- <a href="#">Invest in a Student</a>  -->
+                            <!-- /give call-to-action -->
+
+                            <ul class="f-main-resources no-style">
+                                <li><a href="#" class="f-library">Library</a></li>
+                                <li><a href="#" class="f-bookstore">Bookstore</a></li>
+                                <li><a href="#" class="f-contact">Contact</a></li>
+                            </ul> <!-- /main resources -->
+
+                            <nav class="f-resources">
+                                <ul>
+                                    <li><a href="#">Engage: Social Media</a></li>
+                                    <li><a href="#">Work at LCSC</a></li>
+                                    <li><a href="#">Website Feedback</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Maps &amp; Directions</a></li>
+                                    <li><a href="#">Coeur d'Alene Outreach</a></li>
+                                    <li><a href="#">Emergency Preparedness</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">A-Z</a></li>
+                                    <li><a href="#">Directory</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </nav><!-- /resources -->
+
+                            <div class="f-college-info hcard">
+                                <div class="f-college-info_lc org fn">
+                                    <div class="visuallyhidden">Lewis-Clark State College</div>
+                                </div>
+                                <div class="f-college-info_adr adr">
+                                    <span class="street-address">500 8th Avenue</span>
+                                    <span class="locality">Lewiston</span>,
+                                    <abbr title="Idaho" class="region">ID</abbr>
+                                    <span class="postal-code">83501</span>
+                                </div>
+                                <div class="f-college-info_tel">
+                                    <span class="tel">208-792-5272</span> &bull; 800-933-5272
+                                </div>
+                                <div class="f-college-info_emg">
+                                    Emergency : 208-790-5555
+                                </div>
+                            </div> <!-- /college info -->
+                        </div>
+                    </div>
+                </div> <!-- /footer top -->
+
+                <div class="f-footer_wrapper-bottom">
+                    <div class="f-footer_super">
+                        <div>
+                            <ul class="f-social-links no-style">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                            </ul>
+                        </div>
+                        <ul class="f-disclaimer no-style">
+                            <li>&copy; 2012</li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div> <!-- /footer bottom -->
+
+            </footer> <!-- /footer -->
+
+
+        <div class="f-clock-tower">
+            <div class="f-clock-tower_img"></div>
+        </div> <!-- /clock-tower -->
+        <a id="toTop" class="scroll-to-top is-hidden" href="#">top</a>
+
+        <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->
+
+        <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+
+        <!-- scripts concatenated and minified via build script -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <!--<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-50071ee82dbc31ba"></script>-->
+        <!-- end scripts -->
+
+        <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+        mathiasbynens.be/notes/async-analytics-snippet -->
+        // <script>
+        // var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        // (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        // g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        // s.parentNode.insertBefore(g,s)}(document,'script'));
+        // </script>
+    </body>
+</html>

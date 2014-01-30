@@ -1,0 +1,410 @@
+/* CUSTOM CONTOUR STYLESHEET */
+#contour
+{
+    padding: 10px 0px 10px 0px;
+}
+#contour .contourPageName
+{
+    margin: 10px 0 30px 0;
+    color: #544D43;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "museo", "droid-serif", Arial, sans-serif;
+    border-bottom: 1px solid #e2e2e0;
+    padding-bottom: 3px;
+    text-transform: none;
+}
+
+#contour .contourPageName + fieldset{
+    margin-top: 0;
+}
+
+#contour .contourField {
+    clear: both;
+    border-bottom: 1px solid #e2e2e0;
+    padding:20px;
+    overflow: hidden;
+}
+
+#contour .contourField div label
+{
+    display: inline;
+    font-size: 13px;
+}
+
+#contour label.fieldLabel
+{
+    display: block;
+    background: transparent !important;
+}
+
+#contour .contourIndicator{
+    color: red;
+}
+
+#contour small
+{
+    display: block;
+    color: #808080;
+    margin: 0.5em 0;
+}
+
+#contour fieldset
+{
+    margin-top: 40px;
+    border: none !Important;
+}
+
+#contour legend
+{
+    font-weight: 300;
+    font-size: 18px;
+    color: #a14e43;
+    font-family: "museo-slab", Georgia, Times, serif;
+    border-left: 1px solid #a14e43;
+    padding-left: 5px;
+}
+
+#contour select{
+    height: 29px;
+    padding-left: 5px;
+}
+
+#contour input.text, #contour input.title, #contour textarea, #contour select
+{
+    margin: 0.5em 0;
+    border: 1px solid #bbb;
+}
+#contour input.text:focus, #contour input.title:focus, #contour textarea:focus, #contour select:focus
+{
+    border: 1px solid #666;
+}
+#contour input.text, #contour textarea, #contour .datepickerfield
+{
+    width: 100% !important;
+    max-width: 300px;
+    margin: 0.5em 0;
+    padding: 5px;
+}
+#contour textarea
+{
+    height: 250px;
+}
+#contour input.fileupload
+{
+    height: auto !important;
+}
+
+#contour span.checkboxlist, #contour span.radiobuttonlist, #contour span.checkbox
+{
+    display: block;
+    padding: 10px;
+}
+
+#contour .checkboxlist input, #contour .radiobuttonlist input, #contour .checkbox input
+{
+    width: auto !important;
+    height: auto !important;
+    border: none !important;
+    display: inline !important;
+}
+
+#contour .hiddenfield
+{
+    display:none;
+}
+
+#contour .contourButton
+{
+    margin-right: 10px;
+    padding: 2px 10px;
+}
+#contour .contourErrorMessage
+{
+    padding: .8em;
+    margin-bottom: .5em;
+    border: 2px solid #FBC2C4;
+}
+#contour .contourErrorMessage, #contour .contourError
+{
+    background: #FBE3E4;
+    color: #8a1f11;
+}
+#contour input.contourError, #contour textarea.contourError, #contour input.input-validation-error, #contour textarea.input-validation-error
+{
+    background: #FBE3E4;
+    border-color: #FBC2C4;
+}
+
+#contour span.contourError, #contour span.field-validation-error
+{
+    color: #8a1f11 !important;
+    background: transparent !important;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    margin-top: 5px;
+}
+
+#contour #recaptcha_widget_div {
+    /*margin-left: 200px;*/
+}
+#contour .field-validation-error {
+
+}
+#contour .contourNavigation{
+    text-align: right;
+    margin-top: 20px;
+}
+#contour .contourNavigation input{
+    background-color: #386a85;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    min-width: 30%;
+    margin-right: 20px;
+    border: none;
+    outline:none;
+}
+#contour .contourNavigation input:hover{
+    background-color: #0088D1;
+}
+#contour .contourNavigation input.cancel{
+    background-color: #e2e2e2;
+    color: #9a9a9a;
+}
+#contour .contourNavigation input.cancel:hover{
+    background-color: #ddd;
+}
+#contour .no-headline fieldset:first-child{
+    margin-top: 0;
+}
+#contour .contourPageName + .no-legend .contourField:first-child{
+    padding-top: 0;
+}
+
+
+
+
+
+/*=====================================*\
+    $SPECIAL CASE
+\*=====================================*/
+
+#contour .info-box{
+    font-size: 13px;
+    float: none !important;
+    width: auto !important;
+    padding: 5px;
+    background-color: #efefef;
+    margin: .5em 0 1em 18px;
+}
+#contour .info-box p{
+    margin: 0;
+}
+
+/* Checkbox field with long label */
+#contour .checkboxLongLabel{
+    border: none;
+    padding: 20px 20px 0;
+}
+
+#contour .checkboxLongLabel div
+{
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* Form Steps */
+#contour .contour_formSteps{
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e0;
+    font-family: "museo-slab";
+    font-weight: 300;
+}
+
+#contour .contour_formSteps ol{
+    display: inline-block;
+}
+
+#contour .contour_formSteps li{
+    counter-increment: stepIndex;
+    float: left;
+    line-height: 70px;
+    padding: 0;
+}
+
+#contour .contour_formSteps li:last-child{
+    margin-right: 0;
+}
+
+#contour .contour_formSteps li:before{
+    content: counter(stepIndex);
+    background-color: #89ba9a;
+    color: #fcfcfa;
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    margin-right: 5px;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    border-radius: 1.5em;
+}
+
+#contour .contour_formSteps_active{
+    font-size: 20px;
+    margin: 0 20px 0 15px;
+}
+
+#contour li.contour_formSteps_active:before{
+    background-color: #3B8E58;
+}
+
+
+
+/* Sub Fieldsets */
+#contour .schools-container{
+    width: 100% !important;
+}
+
+#contour .schools-container fieldset:first-child{
+    /*margin-top: 0;*/
+    margin-top: 10px;
+}
+
+#contour .schools-container fieldset{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #efefef;
+}
+
+#contour .schools-container label{
+    display: block !important;
+}
+
+#contour .btn-add-school{
+    float: right;
+    background-color: #386A85;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+
+#contour .btn-add-school:hover{
+    background-color: #0088D1;
+}
+
+
+
+/*=====================================*\
+    $RESPONSIVE
+\*=====================================*/
+
+/* 520px +
+\*===========================*/
+@media (min-width: 520px) and (max-width: 720px), (min-width: 1200px){
+
+#contour .schools-container label{
+    width: 20% !important;
+    margin: 0.9em 2% 0.9em 0 !important;
+    text-align: right !important;
+    float: left !important;
+}
+
+#contour .schools-container input, #contour .schools-container select{
+    width: 78% !important;
+    max-width: 300px !important;
+}
+
+} /* /end 520px query  */
+
+
+/* 720px +
+\*===========================*/
+@media (min-width: 720px){
+
+#contour .contourField div
+{
+    width: 55%;
+    margin-right: 5%;
+    float: left;
+}
+
+#contour .contourField.recaptcha div{
+    width: auto;
+}
+
+#contour small
+{
+    width: 40%;
+    float: left;
+}
+
+
+#contour .checkboxLongLabel div
+{
+    margin-right: 10px;
+    width: auto !important;
+}
+
+
+} /* /end 720px query  */
+
+
+
+
+
+/* 1024px +
+\*===========================*/
+@media (min-width: 800px) and (max-width: 959px), (min-width: 1024px){
+
+#contour label.fieldLabel
+{
+    text-align: right;
+    width: 20%;
+    margin: 0.5em 2.5% 0.5em 0;
+    float: left;
+    clear: left;
+}
+
+#contour .schools-container label.fieldLabel{
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    float: none;
+}
+
+#contour .checkboxLongLabel label.fieldLabel
+{
+    text-align: left;
+    clear: none;
+    float: none;
+    width: auto;
+    max-width: 730px;
+}
+
+#contour .contourField.checkbox label.fieldLabel{
+    margin-top: 0;
+}
+
+#contour .contourField div
+{
+    width: 40%;
+}
+
+#contour small
+{
+    width: 32.5%;
+}
+
+} /* /end 1024px query
