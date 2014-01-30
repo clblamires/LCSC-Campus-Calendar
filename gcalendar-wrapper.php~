@@ -23,7 +23,7 @@
 /**
  * Set your color scheme below
  */
-$calColorBgDark      = '#FF0000';	// dark background color
+$calColorBgDark      = '#3e7593';	// dark background color
 $calColorTextOnDark  = '#000000';	// text appearing on top of dark bg color
 $calColorBgLight     = '#e8eef7';	// light background color
 $calColorTextOnLight = '#000000';	// text appearing on top of light bg color
@@ -178,8 +178,14 @@ div.event {
 div.day {
 	border-bottom: 1px solid {$calColorBgDark} !important;
 }
-.subscribe-image { display: none; }
+/*.subscribe-image { display: none; */
 /*.ca-evp18, .te { background-color: red;}*/
+
+.mv-dayname { 
+	color: #FFF;
+	font-size: 20px;
+	font-family: "museo","droid-serif",Arial,sans-serif;
+}
 
 EOT;
 

@@ -1,0 +1,6 @@
+/* Museo
+\*===========================*/
+// @font-face {font-family: 'Museo';font-style: normal; font-weight: 700;src: url('@{fonts-dir}236717_0_0.eot');src: url('@{fonts-dir}236717_0_0.eot?#iefix') format('embedded-opentype'),url('@{fonts-dir}236717_0_0.woff') format('woff'),url('@{fonts-dir}236717_0_0.ttf') format('truetype'),url('@{fonts-dir}236717_0_0.svg#wf') format('svg');}
+// @font-face {font-family: 'Museo';font-style: normal; font-weight: 300;src: url('@{fonts-dir}236717_1_0.eot');src: url('@{fonts-dir}236717_1_0.eot?#iefix') format('embedded-opentype'),url('@{fonts-dir}236717_1_0.woff') format('woff'),url('@{fonts-dir}236717_1_0.ttf') format('truetype'),url('@{fonts-dir}236717_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'Museo';font-style: normal; font-weight: 500;src: url('../fonts/236717_2_0.eot');src: url('../fonts/236717_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/236717_2_0.woff') format('woff'),url('../fonts/236717_2_0.ttf') format('truetype'),url('../fonts/236717_2_0.svg#wf') format('svg');}
+

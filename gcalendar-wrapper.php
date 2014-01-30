@@ -104,6 +104,7 @@ td#calendarTabs1 div.ui-rtsr-selected,
 div.view-cap,
 div.view-container-border {
 	background-color: {$calColorBgDark} !important;
+	border-radius: 0px;
 }
 td#calendarTabs1 div.ui-rtsr-selected {
 	color: {$calColorTextOnDark} !important;
@@ -183,11 +184,40 @@ div.day {
 
 .mv-dayname { 
 	color: #FFF;
-	font-size: 20px;
-	font-family: "museo","droid-serif",Arial,sans-serif;
+	font-size: 13px;
+	font-family: 'Museo', Georgia, serif;
+	padding: 4px;
 }
+.mv-event-container {
+	top: 20px !important;
+	border-top: none;
+	border-bottom: none;
+}
+#calendarTitle {
+	font-family: 'Museo','Droid Sans', sans-serif;
+	font-size: 2em;
+}
+td.st-dtitle {
+	background-color: #e7e4e0 !important;
+	border-top: none !important;
+}
+td.st-bg, td.st-dtitle {
+	border-left: 1px solid #e7e4e0 !important;
+}	
+
+
+
 
 EOT;
+
+
+$jquery = "<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>";
+$jquery .= "<link href='http://citpt.lcsc.edu/caseyblamires/campuscalendar/css/fonts.css' rel='stylesheet' type='text/css'>";
+$jquery = $jquery."<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>";
+
+$jqueryStuff = "
+
+";
 
 $calCustomStyle = '<style type="text/css">'.$calCustomStyle.'</style>';
 
@@ -259,7 +289,7 @@ if (in_array('curl', get_loaded_extensions())) {
  */
 
 $titleTag = '<title>';
-$baseTag = '<base href="'.GOOGLE_CALENDAR_EMBED_URL.'">';
+$baseTag = $jquery.$jqueryStuff.'<base href="'.GOOGLE_CALENDAR_EMBED_URL.'">';
 $calCustomized = preg_replace("/".preg_quote($titleTag,'/')."/i", $baseTag.$titleTag, $calRaw);
 
 /**
